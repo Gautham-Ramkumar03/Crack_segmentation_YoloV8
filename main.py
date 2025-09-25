@@ -10,6 +10,8 @@ from utils.preprocessing import ImagePreprocessor
 from utils.model import CrackDetector
 from utils.metrics import MetricsTracker
 
+#Working as of sept 2025
+
 def load_config():
     with open('config.yaml', 'r') as f:
         return yaml.safe_load(f)
